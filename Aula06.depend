@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1683586965 source:c:\users\leona\documents\ufjf\ed\ex06 - lista\listacont.cpp
+	<iostream>
+	<cstdlib>
+	"Ponto.h"
+	"ListaCont.h"
+
+1525656607 c:\users\leona\documents\ufjf\ed\ex06 - lista\ponto.h
+	<cmath>
+
+1683586767 c:\users\leona\documents\ufjf\ed\ex06 - lista\listacont.h
+	"Ponto.h"
+
+1683588092 source:c:\users\leona\documents\ufjf\ed\ex06 - lista\main.cpp
+	<iostream>
+	"Ponto.h"
+	"ListaCont.h"
+
