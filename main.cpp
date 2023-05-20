@@ -61,7 +61,11 @@ int main()
     ListaCont L2(50);
     ListaCont L3(50);
 
-    particiona(&L1, &L2, &L3);
+    //particiona(&L1, &L2, &L3);
+
+    l.aumentaCapacidade(15);
+    l.imprime();
+
 
     return 0;
 }
