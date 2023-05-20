@@ -27,6 +27,7 @@ public:
     void limpar();
     void insereValores(int tam, int novoVet[]);
     bool aumentaCapacidade(int novoMax);
+    bool troca(int posicao1 , int posicao2 );
 };
 
 #endif // LISTACONT_H_INCLUDED

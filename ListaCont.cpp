@@ -177,3 +177,34 @@ bool ListaCont::aumentaCapacidade(int novoMax)
 
     return true;
 }
+
+bool ListaCont::troca(int posicao1, int posicao2)
+{
+    if((posicao1 > n) || (posicao1 < 0) ||(posicao2 > n) || (posicao2 < 0))
+        return false;
+
+    int v1 = get(posicao1);
+    int v2 = get(posicao2);
+
+    for(int i = 0; i < n; i++)
+    {
+        if(i == posicao1)
+            vet[i] = v2;
+
+        if(i == posicao2)
+            vet[i] = v1;
+    }
+
+   // removeK(posicao1+1);
+    //removeK(posicao2+1);
+
+    /*
+    removeK(posicao1);
+    insereK(posicao1, v2);
+
+    removeK(posicao2);
+    insereK(posicao2, v1);
+    */
+
+    return true;
+}
